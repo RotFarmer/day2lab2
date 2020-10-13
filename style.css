@@ -1,11 +1,9 @@
-body,ul,button,footer{
+body,ul,button{
     margin:0;
     padding:0;
     font-family: "open sans";
 }
 body{
-    padding-left:20px;
-    position:absolute;
 }
 .button-box{
     position:relative;
@@ -13,13 +11,25 @@ body{
 button{
     color:#FFF;
     background-color: #000;
-    width:90%;
-    position:absolute;
-    left:50%;
-    top:50%;
-    transform: translate(-50%,-50%);
+    width: 100%;
     height:50px;
+    margin: 0 auto;
 }
 li{
     list-style-type:none;
+}
+.gray{
+    color:#69696a
+}
+footer{
+    position: absolute;
+    width:100%;
+    bottom:0;
+    background-color:rgba(247,193,162,0.7);
+    margin: 0;
+    padding:0;
+}
+span{
+    float:right;
+    padding-left:20px;
 }
