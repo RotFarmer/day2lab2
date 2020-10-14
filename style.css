@@ -60,3 +60,5 @@ a{
     color:#69696a
 }
 /* too much screwing around with padding and margin with the html the way it is */
+/* for the list at the bottom(link 1,2,3) display: inline-block */
+/* box-sizing: border box) includes the margin and padding in an elements size */
