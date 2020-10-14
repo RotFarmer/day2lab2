@@ -14,6 +14,7 @@ body{
 button{
     color:#FFF;
     background-color: #000;
+    /* display: block makes it easier to make it look like a button */
     width: 100%;
     height:35px;
     margin: 0 auto;
@@ -58,3 +59,4 @@ a{
     text-decoration:none;
     color:#69696a
 }
+/* too much screwing around with padding and margin with the html the way it is */
